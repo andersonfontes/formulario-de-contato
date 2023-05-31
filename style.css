@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#form-contato{
+    display:block;
+    max-width: 600px;
+    width: 60%;
+    background-color: #333333;
+    margin: 20px;
+    padding: 25px;
+}
+
+label, 
+input, 
+button,
+textarea{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    width: 90%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+label, button{
+    color: #fff;
+}
+
+textarea{
+    min-height: 13rem;
+    resize: vertical;
+}
+
+button{
+    background-color: lightskyblue;
+    font-size: 20px;
+    font-weight: bold; 
+    /* letra maiuscula */
+    text-transform: uppercase;   
+    transition: 0.2s;
+    /* cursor dedo */
+    cursor: pointer;  
+}
+
+button:focus,
+button:hover{
+    background-color: #09d;
+}
